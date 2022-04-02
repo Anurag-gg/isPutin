@@ -1,8 +1,8 @@
 import requests
 import json
 
-URL = "http://127.0.0.1:8000"
-files = {'file': open('images.jpg', 'rb')}
+URL = "http://localhost/"
+files = {'file': open('client-side-example\images.jpg', 'rb')}
 
 
 a = requests.post(url=URL , files= files)
